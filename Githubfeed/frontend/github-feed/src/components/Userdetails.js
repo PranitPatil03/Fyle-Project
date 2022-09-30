@@ -8,17 +8,20 @@ return (
     <div className="container">
         <div className="userprofile">
             <div className="image">
-                <img className="userimage" src="" alt="" />
+                <img className="userimage" src="https://avatars.githubusercontent.com/u/91155068?v=4" alt="" />
             </div>
-            <div className="userrdetails">
+            <div className="userdetails">
                 <div className="username">
-                    <p></p>
+                    <p>Pranit Patil</p>
                 </div>
                 <div className="bio">
-                    <p></p>
+                    <p>cse student</p>
                 </div>
                 <div className="location">
-                    <p></p>
+                    <p>mumbai</p>
+                </div>
+                <div className="social">
+                    <p>twitter</p>
                 </div>
             </div>
         </div>

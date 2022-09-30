@@ -38,27 +38,58 @@
 }
 
 .container{
+  border: 1px solid black;
   height:200px;
   width:650px;
   display:flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
   margin-top: 50px;
 }
 
 .userprofile{
-  border: 1px solid red;
+  display:flex;
   height: 100%;
   width: 100%;
   position: relative;
 }
 
 .image{
-  border: 1px solid rgb(31, 88, 174);
   position:absolute;
   top:0;
   left:0;
   height:100%;
   width:35%;
+}
+
+.userimage{
+  margin-left: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.userdetails{
+  display:flex;
+  flex-direction: column;
+  margin-left:40%;
+  margin-top:-20px;
+}
+
+.username{
+  font-size: 22px;
+  font-weight:500;
+  margin-top:25px;
+}
+
+.bio{
+  margin-top:-20px;
+}
+
+.location{
+  margin-top:-20px;
+}
+
+.social{
+  margin-top:-20px;
 }
