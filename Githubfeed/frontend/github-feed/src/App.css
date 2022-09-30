@@ -37,7 +37,7 @@
   }
 }
 
-.container{
+.containeruserprofile{
   border: 1px solid black;
   height:200px;
   width:650px;
@@ -92,4 +92,21 @@
 
 .social{
   margin-top:-20px;
+}
+
+
+
+
+.containeruserrepo{
+  height:600px;
+  display:flex;
+  margin-top:50px;
+}
+
+
+
+.repos{
+  border-top:1px solid red;
+  width:150px;
+  height:250px;
 }

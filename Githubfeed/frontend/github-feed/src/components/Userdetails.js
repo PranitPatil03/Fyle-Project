@@ -1,11 +1,13 @@
 import React from 'react'
+import { RepoDetails } from './RepoDetails'
 
 
 
 export default function UserDetails() {
     
 return (
-    <div className="container">
+    <>
+    <div className="containeruserprofile">
         <div className="userprofile">
             <div className="image">
                 <img className="userimage" src="https://avatars.githubusercontent.com/u/91155068?v=4" alt="" />
@@ -26,5 +28,6 @@ return (
             </div>
         </div>
     </div>
+    </>
   )
 }
