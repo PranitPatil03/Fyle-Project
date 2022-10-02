@@ -39,12 +39,14 @@
 
 .containeruserprofile{
   border: 1px solid black;
-  height:200px;
-  width:650px;
-  display:flex;
+  height: 200px;
+  width: 648px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-left: 38px;
+  margin-bottom: 70px;
 }
 
 .userprofile{
@@ -58,15 +60,16 @@
   position:absolute;
   top:0;
   left:0;
-  height:100%;
+  height:80%;
   width:35%;
 }
 
 .userimage{
-  margin-left: 10px;
-  height: 200px;
+  margin-left: 14px;
+  height: 190px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 60%;
+  margin-top: 5px;
 }
 
 .userdetails{
@@ -94,19 +97,69 @@
   margin-top:-20px;
 }
 
-
+.repocard{
+  width: 648px;
+}
 
 
 .containeruserrepo{
+  /* border:1px solid black; */
   height:600px;
   display:flex;
   margin-top:50px;
 }
 
-
-
 .repos{
-  border-top:1px solid red;
-  width:150px;
-  height:250px;
+  /* border:1px solid black;*/
+  display: flex;
+  width: 100%;
+  margin-left: 37px;
+  margin-bottom: 43px;
+}
+
+
+.repo{
+  border:1px solid black;
+  width:300px;
+  height:100px;
+  /* margin-bottom: 10px; */
+  margin-left:55px;
+}
+
+.repo1{
+  margin-left:0px;
+}
+
+.repo2{
+  margin-right: -3px;
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 5px;
+  font-Weight:600;
+}
+
+.description{
+  margin-left: 5px;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.list{
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.btn{
+  padding:5px;
+}
+
+.btn2{
+  margin-left: 5px;
+}
+
+.btn3{
+  margin-left: 5px;
 }

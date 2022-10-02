@@ -1,7 +1,4 @@
 import React from 'react'
-import { RepoDetails } from './RepoDetails'
-
-
 
 export default function UserDetails() {
     
