@@ -38,14 +38,34 @@
   }
 }
 
+.user{
+  margin-left: 40px;
+  margin-top: 40px;
+  height:40px;
+  width: 649px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#username{
+  height:35px;
+  width: 640px;
+  margin-top:-1px;
+  margin-left:0%;
+  outline: none;
+
+}
+
+
 .containeruserprofile {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 200px;
   width: 648px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-left: 38px;
   margin-bottom: 70px;
 }
@@ -241,3 +261,5 @@
   margin-left: 10px;
   margin-top: 5px;
 }
+
+
